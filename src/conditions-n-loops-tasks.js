@@ -285,7 +285,6 @@ function getBalanceIndex(arr) {
   for (let i = 0; i < arr.length; i += 1) {
     rightSum += arr[i];
   }
-  
   for (let i = 0; i < arr.length; i += 1) {
     rightSum -= arr[i];
     if (leftSum === rightSum) {
